@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <script src="colors.js"></script>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+
+<div id="comment_box_line">
+  <form action="" method="post">
+    <input type="text" placeholder="title....." name="" id="comment_input_box">
+    <p><textarea placeholder="description....." name="" id="comment_textarea" cols="30" rows="10"></textarea></p> 
+    <input type="submit" value="create comment">
+  </form>
+</div>
+
+<ul>
+  <li>
+    Hello
+    <p>
+      Hi my name is ...
+      <form action="" method="post">
+        <input type="hidden" name="id" value="">
+        <input type="submit" value="delete">
+      </form>
+    </p>
+  </li>
+  <li>
+    HD Tv is ...
+    <p>
+      very good ...      
+      <form action="" method="post">
+        <input type="hidden" name="id" value="">
+        <input type="submit" value="delete">
+      </form>
+    </p>
+  </li>
+  <li>
+    UHD TV is SAMSUNG TECHNOLEDGY
+    <p>
+      humm i think is not good
+      <form action="" method="post">
+        <input type="hidden" name="id" value="">
+        <input type="submit" value="delete">
+      </form>
+    </p>
+  </li>
+</ul>
+
+<div id="box">
+  <div id="button"> 
+     <input style="font-size: 25px;" type="button" value="night" onclick="night_day_control(this)">
+  </div>
+ </div>
+</body>
+</html>
+
+
+<!--
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   a {
+     color: unset;
+   }
+ </style>
+ <script>
+      function night_day_control(click) {
+      var target = document.querySelector('body');
+      if(click.value === 'night') {
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        click.value = 'day';  
+        
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while (i < alist.length) {
+        alist[i].style.color = 'powderblue';
+        i = i + 1;
+        }
+      } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        click.value = 'night';
+
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while (i < alist.length) {
+        alist[i].style.color = 'blue';
+        i = i + 1;
+        }
+      } 
+    } 
+ </script>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+<div id="box">
+  <div id="button"> 
+     <input style="font-size: 25px;" type="button" value="night" onclick="night_day_control(this)">
+  </div>
+ </div>
+</body>
+</html>
+-->
+
+<!-- 
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   a {
+     color: unset;
+   }
+ </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+<div id="box">
+  <div id="button"> 
+     <input style="font-size: 25px;" type="button" value="night" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'night') {
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+      } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+      } 
+      ">
+  </div>
+ </div>
+</body>
+</html> -->
+
+<!--
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   a {
+     color: unset;
+   }
+ </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+<div id="box">
+  <div id="button"> 
+     <input id="night_day" style="font-size: 25px;" type="button" value="night" onclick="
+      if(document.querySelector('#night_day').value === 'night') {
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.querySelector('#night_day').value = 'day';
+      } else {
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.querySelector('#night_day').value = 'night';
+      } 
+      ">
+  </div>
+ </div>
+</body>
+</html>
+-->
+
+<!-- 
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   a {
+     color: unset;
+   }
+ </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+<div id="box">
+  <div id="button"> 
+     <input style="font-size: 25px;" type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor = 'black'; 
+      document.querySelector('body').style.color = 'white';
+     ">
+     <input style="font-size: 25px;" type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+     ">
+  </div>
+ </div>
+</body>
+</html> 
+-->
+
+<!--
+<!doctype html>
+<html>
+<head>
+ <title>WEB1 - Javascript</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   a {
+     color: unset;
+   }
+ </style>
+ <script>
+   function f() {
+    if(document.querySelector('#night_day').value === 'night') {
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.querySelector('#night_day').value = 'day';
+      } else {
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.querySelector('#night_day').value = 'night';
+      } 
+   }
+ </script>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+  <h2>Javascript</h2>
+  <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+  </p>
+</div>
+</div>
+<div id="box">
+  <div id="button"> 
+     <input id="night_day" style="font-size: 25px;" type="button" value="night" onclick="f()">
+  </div>
+ </div>
+</body>
+</html>
+-->
+
+
